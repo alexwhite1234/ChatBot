@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Yo", "Sup", "Ahoy", "Howdy", "Wassup", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Good morning", "Good afternoon", "Good evening"],
+         "responses": ["Hello, what can I do for you?", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "wellbeing",
+          "patterns": ["How are you", "How's it going", "How is it going", "How do you do"],
+          "responses": ["Great, thanks for asking", "I'm doing great thank you", "Great! I hope you are doing well"],
+          "context": [""]
+        },
+        {"tag": "identity",
+          "patterns": ["Who are you", "Whats your name", "What are you", "Who is this", "What is this"],
+          "responses": ["My name is Ava, that stands for Alex's Virtual Assistant ", "I'm Ava, Alex's virtual assistant"],
+          "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "search",
+         "patterns": ["Search", "Search for", "Google", "Research", "Please check"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can perform simple tasks for example provide you the date, time, and other simple tasks of that nature"],
+         "context": [""]
+        },
+        {"tag": "getTime",
+          "patterns": ["What time is it", "What is the time", "What's the time", "time?", "What does the clock say"],
+          "responses": ["The time is: ", "It is currently ", "The current time is: ", "Current time = "],
+          "context": [""]
+        },
+        {"tag": "square",
+          "patterns": ["Draw a square", "Make a square", "Square", "show a square", "Make a box"],
+          "responses": [""],
+          "context": [""]
+        },
+        {"tag": "circle",
+          "patterns": ["Draw a circle", "Make a circle", "circle", "show a circle", "Make a round"],
+          "responses": [""],
+          "context": [""]
+        },
+        {"tag": "triangle",
+          "patterns": ["Draw a triangle", "Make a triangle", "triangle", "show a triangle", "Make an angle"],
+          "responses": [""],
+          "context": [""]
+        },
+        {"tag": "getDate",
+         "patterns": ["What is the date", "What day is it?", "Whats the current date", "What is today"],
+         "responses": ["The date is: ", "Today is ", "Today's date is "],
+         "context": [""]
+        }
+   ]
+}
